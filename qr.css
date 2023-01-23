@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(220, 15%, 55%);
+    
+}
+
+@font-face {
+    font-family: 'outfit-Bold';
+    src: url('static/font/Outfit-Bold.ttf') format('truetype');
+
+    font-family: 'outfit-Light';
+    src: url('static/font/Outfit-ExtraLight.ttf') format('truetype');
+
+  }
+
+.conteneur{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 230px;
+    height: 360px;
+
+    border-radius: 3%;
+    
+    background-color: rgb(255, 255, 255);
+
+}
+.cont_text1{
+   
+    background-color: rgb(255, 255, 255);
+
+    font-family:outfit-Bold;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+    
+   
+}
+
+.cont_text2{
+    
+   color: hsl(212, 45%, 89%);
+   font-family: outfit-Bold;
+   font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    
+    position: relative;
+    top: 40px;
+
+}
+
+
+.img_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width:210px; 
+    height: 210px;; 
+
+    position: relative;
+    top: 10px;
+    border-radius: 5%; /* pour faire une forme ronde */
+}
